@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    color: white;
+}
+ 
+.gameTitle{
+    width: 100vw;
+    height: 15vh;
+    font-size: 3rem;
+
+    color: white;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameplay, .utilities{
+    width: 100vw;
+    height: 25vh;
+
+    color: white;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move-icon{
+    height: 50px;
+}
+
+.gameplay button, .utilities button{
+    width: 200px;
+    max-width: 30%;
+    height: 80px;
+    margin: 10px;
+
+    background-color: goldenrod;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gameplay button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.move, .status{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.result{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.resetter{
+    height: 20vh;
+}
+
+.reset-popup{
+    height: 20vh;
+    width: 60vw;
+    max-width: 800px;
+    background-color: goldenrod;
+    border: 3px solid white;
+    align-self: center;
+    justify-self: center;
+    position: fixed;
+
+    /* display:grid; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.popup-bg{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.7);
+    align-self: center;
+    justify-self: center;
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: none;
+}
+
+.reset-popup.active{
+    display: grid;
+}
+
+.popup-bg.active{
+    display: block;
+}
+
+.reset-popup button{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: gold;
+}

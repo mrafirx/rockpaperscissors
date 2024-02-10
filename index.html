@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./rps.css">
+</head>
+<body>
+    <div class="gameTitle">
+        <p>Rock Paper Scissors</p>
+    </div>
+
+    <div class="gameplay">
+        <button class="move-rock"><img src="./rock-emoji.png" alt="" class="move-icon"></button>
+        <button class="move-paper"><img src="./paper-emoji.png" alt="" class="move-icon"></button>
+        <button class="move-scissors"><img src="./scissors-emoji.png" alt="" class="move-icon"></button>
+    </div>
+
+    <div class="utilities">
+        <button class="reset-game">Reset</button>
+        <button class="open-storage">Local Storage</button>
+        <button class="auto-play-button">Auto Play</button>
+    </div>
+
+
+    <div class="move">
+        You v<div class="player-move"></div><div class="computer-move"></div>s Computer
+    </div>
+    <div class="result">Results</div>
+    <div class="status"></div>
+
+    <div class="footer">
+        <h1>&copy; Muhammad Rafi Ramadhan 2024</h1>
+    </div>
+
+    <div id="popup">
+        <div class="popup-bg">
+        </div>
+        <div class="reset-popup">
+            <h3>Reset Score?</h3>
+            <button id="reset-yes">Yes</button>
+            <button id="reset-no">No</button>
+        </div>
+
+    </div>
+
+
+    <script src="./rps.js"></script>
+</body>
+</html>
